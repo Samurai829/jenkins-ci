@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  jenkinsci:
+    container_name: jenkins
+    image: jenkinsci/jenkins
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./jenkins_home:/var/jenkins_home
+    networks:
+      - net
+
+networks:
+  net:
