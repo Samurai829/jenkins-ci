@@ -23,11 +23,10 @@ COPY remote-key.pub /home/remote_user/.ssh/authorized_keys
 
 RUN chown remote_user:remote_user -R /home/remote_user/.ssh/
 
-RUN ssh-keygen -A
+RUN /usr/bin/ssh-keygen -A
 # Aqui damos mas permisos a la carpeta "remote_user" y 
 # al archivo en la carpeta
 
 #RUN /usr/sbin/sshd-keygen > /dev/null 22>&1
 
-CMD /user/sbin/sshd -D
-CMD ["sh", "-c", "tail -f /dev/null"]
+CMD ["/usr/sbin/sshd", "-D"]
