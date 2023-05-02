@@ -1,0 +1,15 @@
+Started by user [8mha:////4Aqugw0bFU2dENJldWkTrqVT8/b3NHGVmYDvszPjazciAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgYB/dLi1CL94sTc0qLETAsjSwCkBs00xQAAAA==[0mReymer Steven Garcia
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Remote Task
+[SSH] script:
+
+NAME=Reymer
+
+echo "Hola, $NAME" > /tmp/test
+
+[SSH] executing...
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS
